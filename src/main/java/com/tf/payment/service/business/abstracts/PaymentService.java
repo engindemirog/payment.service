@@ -1,4 +1,5 @@
 package com.tf.payment.service.business.abstracts;
 
-public class PaymentService {
+public interface PaymentService {
+    PaymentCreatedResponse  add(CreatePaymentRequest createPaymentRequest);
 }
